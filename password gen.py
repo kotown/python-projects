@@ -8,7 +8,7 @@ def passwordgen():
     s3 = string.digits
     s4 = string.punctuation
     
-    #GEt the desired length from user
+    #Get the desired length from user
     passlen = int(input("Enter thr desired password length: "))
     
     #append all characters to a list / array
